@@ -9,8 +9,8 @@ function App() {
     <>
     <Navbar/>
       <Routes>
-        <Route path='/assgn5_employee_react' element={<Home />}></Route>
-        <Route path='/assgn5_employee_react/form' element={<Form />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/form' element={<Form />}></Route>
       </Routes>
     </>
   );
