@@ -14,7 +14,7 @@ const Navbar = () => {
                 Employee
             </Typography>
             <Button>
-                <Link style={{color:'white',textDecoration:'none'}} to={'/assgn5_employee_react'}>Home</Link>
+                <Link style={{color:'white',textDecoration:'none'}} to={'/'}>Home</Link>
                 </Button>
             <Button color="inherit"><Link style={{color:'white',textDecoration:'none'}}  to={'form'}>Employee Form</Link></Button>
             </Toolbar>
