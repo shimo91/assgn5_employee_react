@@ -88,7 +88,7 @@ const Home = () => {
                 {users.map((row,i) => (
                     <StyledTableRow key={row.id}>
                     <StyledTableCell component="th" scope="row">
-                        {row.name}
+                        {row.id}
                     </StyledTableCell>
                     <StyledTableCell align="right">{row.name}</StyledTableCell>
                     <StyledTableCell align="right">{row.email}</StyledTableCell>
